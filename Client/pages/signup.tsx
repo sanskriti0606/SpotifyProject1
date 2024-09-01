@@ -23,7 +23,7 @@ const Signup = () => {
     setError(null);
 
     try {
-      const response = await fetch('http://localhost:8081/api/users', {
+      const response = await fetch('https://spotifyproject1.onrender.com/api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -22,7 +22,7 @@ const Playlist = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch('http://localhost:8081/api/playlists', {
+        const response = await fetch('https://spotifyproject1.onrender.com/api/playlists', {
           method: 'GET',
         });
 
