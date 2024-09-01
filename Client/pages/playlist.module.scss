@@ -1,0 +1,150 @@
+.sectionPlaylist {
+  padding: 10px;
+  background-color: #141313;
+  position: relative; /* Ensure relative positioning for child elements */
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.mainHeading {
+  font-size: 2.6rem; /* Base font size for larger screens */
+  margin-bottom: 30px; /* Margin adjustment */
+  text-align: center;
+  color: #f6ecec; /* Light color for the heading */
+  line-height: 1.2; /* Adjust line height for readability */
+}
+
+.gridThreeCols {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 40px; /* Gap between grid items */
+}
+
+.card {
+  background: #1d1d1d; /* Card background color */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(255, 254, 254, 0.2); /* Shadow effect */
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  
+  &:hover {
+    transform: scale(1.02); /* Hover effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Increased shadow on hover */
+  }
+}
+
+.cardImage img {
+  width: 100%;
+  height: 200px; /* Adjusted height */
+  object-fit: cover;
+}
+
+.cardDetails {
+  padding: 8px; /* Padding inside card */
+  color: #e3e3e3; /* Text color */
+}
+
+.playlistTitle {
+  font-size: 1rem; /* Font size for playlist title */
+  margin-bottom: 4px; /* Margin adjustment */
+}
+
+.songDetails {
+  padding: 2px 0; /* Padding for song details */
+  border-bottom: 1px solid #3a3a3a; /* Border for separation */
+}
+
+.songTitle {
+  font-size: 0.9rem; /* Font size for song title */
+  margin: 0;
+}
+
+.link {
+  color: #1db954; /* Spotify green for links */
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.backButton {
+  position: absolute; /* Absolute positioning */
+  top: 10px; /* Positioning from top */
+  left: 10px; /* Positioning from left */
+  padding: 8px 16px; /* Padding */
+  background-color: #154d29;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.backButton:hover {
+  background-color: #3ca661;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 1200px) {
+  .mainHeading {
+    font-size: 2.2rem; /* Slightly smaller font size on medium screens */
+    margin-bottom: 25px; /* Adjust margin for medium screens */
+  }
+
+  .gridThreeCols {
+    gap: 30px; /* Reduce gap for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .mainHeading {
+    font-size: 1.8rem; /* Smaller font size on small screens */
+    margin-bottom: 20px; /* Adjust margin for small screens */
+  }
+
+  .gridThreeCols {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Smaller minimum width for grid items */
+    gap: 20px; /* Reduce gap */
+  }
+
+  .cardImage img {
+    height: 150px; /* Reduce image height */
+  }
+
+  .backButton {
+    top: 5px; /* Adjust position for smaller screens */
+    left: 5px; /* Adjust position */
+    padding: 6px 12px; /* Reduce padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .mainHeading {
+    font-size: 1.5rem; /* Even smaller font size on very small screens */
+    margin-bottom: 15px; /* Adjust margin */
+  }
+
+  .gridThreeCols {
+    grid-template-columns: 1fr; /* Single column layout for very small screens */
+    gap: 15px; /* Reduce gap */
+  }
+
+  .cardImage img {
+    height: 120px; /* Further reduce image height */
+  }
+
+  .backButton {
+    top: 2px; /* Further adjust position */
+    left: 2px; /* Further adjust position */
+    padding: 4px 8px; /* Further reduce padding */
+  }
+}
