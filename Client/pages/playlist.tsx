@@ -22,7 +22,7 @@ const Playlist = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await fetch('https://spotifyproject1.onrender.com/api/playlists', {
+        const response = await fetch('https://spotify-project1-6hgy.vercel.app/api/playlists', {
           method: 'GET',
         });
 
