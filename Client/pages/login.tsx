@@ -17,7 +17,7 @@ const Login = () => {
     setSuccessMessage(null);
 
     try {
-      const response = await fetch('https://spotify-project1-6hgy.vercel.app/api/login', {
+      const response = await fetch('https://spotifyproject1.onrender.com/api/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
