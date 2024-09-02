@@ -54,19 +54,33 @@ yarn dev
 Access the app at http://localhost:3000.
 
 Usage
+
 Login: /login
+
 Signup: /signup
+
 Playlists: Manage playlists
+
 Backend
+
 Features
+
 User authentication (login, signup)
+
 CRUD operations for playlists
+
 Integration with MongoDB
+
 Technologies
+
 Node.js: JavaScript runtime for server-side
+
 Express: Web application framework
+
 MongoDB: NoSQL database
+
 Mongoose: ODM for MongoDB
+
 JWT: JSON Web Tokens for authentication
 
 bash
@@ -82,17 +96,24 @@ npm start
 The server runs at http://localhost:8081.
 
 API Endpoints
+
 POST /api/login: Authenticate a user
+
 POST /api/users: Register a new user
+
 GET /api/playlists: Get all playlists
+
 POST /api/playlists: Create a new playlist
+
 PUT /api/playlists/
+
 Contributing
 Fork the repository.
 Create a new branch: git checkout -b feature/your-feature.
 Commit your changes: git commit -am 'Add new feature'.
 Push to the branch: git push origin feature/your-feature.
 Create a Pull Request.
+
 License
 Licensed under the MIT License - see the LICENSE file for details.
 
