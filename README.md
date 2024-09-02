@@ -97,6 +97,8 @@ POST /api/playlists: Create a new playlist
 
 PUT /api/playlists/
 
+**Deployement Link** : https://spotify-project1-ten.vercel.app/
+
 **Contributing**
 Fork the repository.
 Create a new branch: git checkout -b feature/your-feature.
