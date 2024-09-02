@@ -1,21 +1,29 @@
+# Spotify
 
-Spotify
-Prerequisites
+## Prerequisites
+
 Before you begin, ensure that you have the following installed on your system:
 
-Node.js (version 12 or higher)
-npm (Node Package Manager) or yarn
-Installation
-Clone the repository to your local machine using the following command:
+- **Node.js** (version 12 or higher)
+- **npm** (Node Package Manager) or **yarn**
 
-git clone [repository-url]https://github.com/sanskriti0606/SpotifyProject1
-Install the dependencies by running either of the following commands:
+## Installation
 
-Using npm:
+1. **Clone the repository** to your local machine using the following command:
 
-npm install
-Using yarn:
+    ```bash
+    git clone [repository-url](https://github.com/sanskriti0606/Spotify06)
+    ```
 
+3. **Install the dependencies** by running either of the following commands:
+
+    - Using npm:
+    
+      ```bash
+      npm install
+      ```
+
+    - Using yarn:
 yarn install
 Configuration
 To use the Spotify API, you'll need an API key. Follow these steps to get and configure your API key:
@@ -32,38 +40,26 @@ Replace `'73bc937552msh27eaf79d281b2bbp1e52afjsn9a548c143686'` with your actual 
 Running the Application
 To start the development server, run the following command:
 
-Using npm:
-
-npm run dev
-This will start the Next.js development server and automatically open the application in your default browser. Or manually open the site with http://localhost:3000/
-
-Deployment Deploy your Next.js music player software to your preferred hosting platform or server following the appropriate deployment process for Next.js applications.
-
 Make sure to set the necessary environment variables in your deployment environment to match the configurations mentioned in the .env file.
 
-bash
+**bash**
 Copy code
 NEXT_PUBLIC_API_BASE_URL=(https://spotifyproject1.onrender.com/)/api
 Start the development server:
 
-bash
-Copy code
+**yarn dev**
 npm run dev
-# or
-yarn dev
 Access the app at http://localhost:3000.
 
 Usage
 
-Login: /login
-
-Signup: /signup
-
+**Login: /login**
+**Signup: /signup**
 Playlists: Manage playlists
 
-Backend
+## Backend
 
-Features
+**Features**
 
 User authentication (login, signup)
 
@@ -71,7 +67,7 @@ CRUD operations for playlists
 
 Integration with MongoDB
 
-Technologies
+**Technologies**
 
 Node.js: JavaScript runtime for server-side
 
@@ -88,14 +84,8 @@ Copy code
 MONGO_URI=mongodb://localhost:27017/spotify-app
 JWT_SECRET=your_jwt_secret
 PORT=8081
-Start the server:
 
-bash
-Copy code
-npm start
-The server runs at http://localhost:8081.
-
-API Endpoints
+**API Endpoints**
 
 POST /api/login: Authenticate a user
 
@@ -107,17 +97,24 @@ POST /api/playlists: Create a new playlist
 
 PUT /api/playlists/
 
-Contributing
+**Contributing**
 Fork the repository.
 Create a new branch: git checkout -b feature/your-feature.
 Commit your changes: git commit -am 'Add new feature'.
 Push to the branch: git push origin feature/your-feature.
 Create a Pull Request.
 
-License
+**License**
 Licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+**Acknowledgments**
 Inspired by Spotify
 Thanks to Next.js, Tailwind CSS, MongoDB, Express, and Mongoose for their powerful tools.
 Feel free to adjust the URLs and any specific details as necessary for your project.
+
+![image](https://github.com/user-attachments/assets/f969fe5c-a226-4369-9f49-a40678809f98) 
+![image](https://github.com/user-attachments/assets/28bd3378-9db8-4ba5-a90a-d473d5c62283)
+![image](https://github.com/user-attachments/assets/8b316606-4d92-4243-99ee-9d588dc01bc2)
+
+
+
