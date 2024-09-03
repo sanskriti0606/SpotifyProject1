@@ -131,7 +131,7 @@ const Header = () => {
           <Link href="/login" passHref>
             <div className="flex flex-col items-start justify-center headerHover">
               {isAuthenticated && username ? (
-                <p className="text-md text-lightText">Welcome, you're signed in{}</p>
+                <p className="text-md text-lightText">Welcome, you're signed in {}</p>
               ) : (
                 <p className="text-md text-lightText"></p>
               )}
