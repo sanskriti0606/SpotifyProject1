@@ -18,9 +18,7 @@ Before you begin, ensure that you have the following installed on your system:
 3. **Install the dependencies** by running either of the following commands:
 
     - Using npm:
-    
-      ```bash
-      npm install
+          npm install
       ```
 
     - Using yarn:
