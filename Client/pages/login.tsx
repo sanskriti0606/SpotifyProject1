@@ -149,7 +149,6 @@ const Login = () => {
       // Show success message
       setSuccessMessage('Login successfully');
 
-      // Redirect to the dashboard or another protected route after a short delay
       setTimeout(() => {
         router.push('/');
       }, 2000); // Redirect after 2 seconds
