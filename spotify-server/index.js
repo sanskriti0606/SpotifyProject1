@@ -67,7 +67,6 @@ app.use('/api/users', userRoutes);
 app.use('/api/login', authRoutes); // Register authRoutes
 app.use('/api/songs', auth, songRoutes);
 app.use('/api/playlists', playListRoutes.default); // Use default if using named imports
-app.use('/api/search', searchRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
