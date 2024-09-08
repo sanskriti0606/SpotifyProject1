@@ -95,7 +95,7 @@ POST /api/playlists: Create a new playlist
 
 PUT /api/playlists/
 
-**Deployement Link** : https://spotify-project1-ten.vercel.app/
+**Deployement Link** : https://spotifyclient-five.vercel.app/
 
 **Contributing**
 Fork the repository.
