@@ -40,7 +40,6 @@ import userRoutes from './routes/users.js';
 import authRoutes from './routes/auth.js';
 import songRoutes from './routes/songs.js';
 import * as playListRoutes from './routes/playLists.js'; // Adjust import if not using default
-import searchRoutes from './routes/search.js';
 import auth from './middleware/auth.js';
 
 dotenv.config();
