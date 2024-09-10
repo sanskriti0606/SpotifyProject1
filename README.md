@@ -95,7 +95,8 @@ POST /api/playlists: Create a new playlist
 
 PUT /api/playlists/
 
-## API Documentation : https://documenter.getpostman.com/view/37832607/2sAXjSyoKV
+## API Documentation : 
+**https://documenter.getpostman.com/view/37832607/2sAXjSyoKV**
 
 **Deployement Link** : https://spotifyclient-five.vercel.app/
 
